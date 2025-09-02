@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #202020;
     --foreground: #ededed;
   }
 }
@@ -25,6 +25,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   width: 600px;
   margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -34,8 +37,24 @@ header {
 
 nav {
   display: flex;
+  background-color: black;
   flex-direction: row;
   justify-content: end;
   gap: 20px;
-  padding: 3px;
+  padding: 5px;
+  font-size: small;
+}
+
+main {
+  background-color: #909090;
+  flex: 1;
+}
+
+footer {
+  width: 100%;
+  padding: 5px;
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }

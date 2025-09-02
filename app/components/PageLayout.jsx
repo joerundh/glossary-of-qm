@@ -11,7 +11,7 @@ export default function PageLayout({ children }) {
                     <Link href={"/facts"} className={"cursor-pointer hover:underline"}>Facts</Link>
                 </nav>
             </header>
-            <main>
+            <main className={"w-full flex flex-col gap-[10px] p-[10px]"}>
                 {
                     children
                 }

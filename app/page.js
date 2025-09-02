@@ -1,9 +1,9 @@
-import Word from "./components/Word";
+import WordExplainer from "./components/WordExplainer";
 
 export default function Home() {
   return (
     <>
-      <Word word={"sláinte"} explanation={{ header: "sláinte", content: "cheers" }} />
+      
     </>
   );
 }
