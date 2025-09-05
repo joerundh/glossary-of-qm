@@ -1,9 +1,8 @@
-import WordExplainer from "./components/WordExplainer";
-
 export default function Home() {
   return (
     <>
-      
+      <h3></h3>
+      <p></p>
     </>
   );
 }
