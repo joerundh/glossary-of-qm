@@ -1,0 +1,51 @@
+{
+    "title": "Wave mechanics",
+    "ref": "wave-mechanics",
+    "contents": [
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "Wave mechanics, introduced by Erwin Schrödinger, is one of the two first consistent formulations of quantum mechanics. Building primarily on the works of Louis de Broglie on matter waves, it describes quantum systems by their "
+                },
+                {
+                    "type": "ref",
+                    "value": "wave-function",
+                    "label": "wave functions"
+                },
+                {
+                    "type": "text",
+                    "value": ". The principal equations of wave mechanics are the time-dependent and the time-independent "
+                },
+                {
+                    "type": "ref",
+                    "value": "schrodinger-equation",
+                    "label": "Schrödinger equations"
+                },
+                {
+                    "type": "text",
+                    "value": ", which respectively describe how a system's wave function evolves in time, and gives an eigenvalue equation for the energy levels of the system, as well as the energy eigenfunctions. These latter may then be used to expand a general state of the system as a superposition of energy eigenstates."
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "Using the resulting wave functions, any quantity of interest related to the system can in principle be computed, including statistical values such as expectation values and variances of measurable quantities, and the probabilities of a measurement experiment yielding such and such a result."
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "Schrödinger himself also employed his wave mechanics to derive the formula for the hydrogen spectrum discovered by Niels Bohr."
+                }
+            ]
+        }
+    ]
+}

@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    images: {
+        domains: [
+            "math.vercel.app"
+        ]
+    },
+};
 
 export default nextConfig;

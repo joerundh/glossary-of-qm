@@ -1,0 +1,16 @@
+{
+    "title": "Heisenberg picture",
+    "ref": "heisenberg-picture",
+    "contents": [
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "THe Heisenberg picutre is a way of viewing and treating the mathematical objects used to describe a quantum system. In the Heisenberg picture, the states of the system (which are essentially vectors) are said to be stationary (not moving in time), while the operators (the dynamical variables) are generally changing in time, and thus subject to equations of motion. The Heisenberg picture is mathematically equivalent to the Schrödinger picture, the two methods generally yielding the same results in the end, albeit via different methods."
+                }
+            ]
+        }
+    ]
+
+}

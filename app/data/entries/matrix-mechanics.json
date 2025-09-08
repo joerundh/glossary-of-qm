@@ -1,0 +1,90 @@
+{
+    "title": "Matrix mechanics",
+    "ref": "matrix-mechanics",
+    "contents": [
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "Matrix mechanics, discovered by Werner Heisenberg and developed by him, Max Born and Pascual Jordan, is the first consistent formulation of quantum mechanics. Its discovery happened when Heisenberg imposed a multiplication rule involving the dynamical quantities of a quantum system for the sake of consistency in form. This multiplication rule was shortly after identified by Born as the multiplication rule of matrices, which then suggested that the quantities should be represented in the quantum theory by these. Eventually the most fruitful observation in this context was that two quantities "
+                },
+                {
+                    "type": "latex",
+                    "value": "A"
+                },
+                {
+                    "type": "text",
+                    "value": " and "
+                },
+                {
+                    "type": "latex",
+                    "value": "B"
+                },
+                {
+                    "type": "text",
+                    "value": " generally do not commute, i.e. the products "
+                },
+                {
+                    "type": "latex",
+                    "value": "AB"
+                },
+                {
+                    "type": "text",
+                    "value": " and "
+                },
+                {
+                    "type": "latex",
+                    "value": "BA"
+                },
+                {
+                    "type": "text",
+                    "value": " are generally not equal. This eventually paved the way for a general method of quantization of classical systems to be formulated, based on the "
+                },
+                {
+                    "type": "bold",
+                    "value": "canonical quantization relations"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "[q_r, p_s] = q_r p_s - p_s q_r = i\\hbar \\delta_{r,s}, \\quad r, s = 1, 2, \\dots N"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "where "
+                },
+                {
+                    "type": "latex",
+                    "value": "q_r, p_s"
+                },
+                {
+                    "type": "text",
+                    "value": " are the coordinates of the system in phase space."
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "Matrix mechanics was successfully used by Wolfgang Pauli to derive the hydrogen spectrum. However many physicists even at the time preferred the calculus-based methods of "
+                },
+                {
+                    "type": "ref",
+                    "value": "wave-mechanics",
+                    "label": "wave mechanics"
+                },
+                {
+                    "type": "text",
+                    "value": " introduced not long after, more so than the comparatively algebraically heavy (and to an extent unknown to them) methods of matrix computations. It was later demonstrated by Schrödinger that the two methods where equivalent, and thus would yield the same results."
+                }
+            ]
+        }
+    ]
+}

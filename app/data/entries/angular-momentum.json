@@ -1,0 +1,229 @@
+{
+	"title": "Angular momentum",
+	"ref": "angular-momentum",
+	"contents": [
+		{
+			"type": "paragraph",
+			"parts": [
+				{
+					"type": "text",
+					"value": "The angular momentum "
+				},
+				{
+					"type": "latex",
+					"value": "\\mathbf{L}"
+				},
+				{
+					"type": "text",
+					"value": " of a body is a quantity that describes its motion about a specified origin. It is defined as the cross product of the "
+                },
+                {
+                    "type": "ref",
+                    "value": "position",
+                    "label": "position"
+                },
+                {
+                    "type": "text",
+                    "value": " vector "
+                },
+                {
+                    "type": "latex",
+                    "value": "\\mathbf{x}"
+                },
+                {
+                    "type": "text",
+                    "value": " and the "
+                },
+                {
+                    "type": "ref",
+                    "value": "momentum",
+                    "label": "(linear) momentum"
+                },
+                {
+                    "type": "text",
+                    "value": " vector:"
+                }
+			]
+		},
+        {
+            "type": "latex",
+            "value": "\\mathbf{L} = \\mathbf{x} \\times \\mathbf{p}"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "In many respects, it is the rotational analogue of the linear momentum, following an equation of motion somewhat similar to Newton's second law."
+				}
+            ]
+        },
+		{
+			"type": "paragraph",
+			"header": "Quantum mechanical angular momentum",
+			"parts": [
+				{
+					"type": "text",
+					"value": "In quantum mechanics, angular momentum is a somewhat more abstract quantity, defined rather by algebraic relations. It is also quantized, and is generally described by two quantum numbers "
+				},
+                {
+                    "type": "latex",
+                    "value": "l"
+                },
+                {
+                    "type": "text",
+                    "value": " and "
+                },
+                {
+                    "type": "latex",
+                    "value": "m_l"
+                },
+                {
+                    "type": "text",
+                    "value": ", respectively called the "
+                },
+                {
+                    "type": "italic",
+                    "value": "azimuthal"
+                },
+                {
+                    "type": "text",
+                    "value": " and the "
+                },
+                {
+                    "type": "italic",
+                    "value": "magnetic"
+                },
+                {
+                    "type": "text",
+                    "value": " quantum numbers. "
+                },
+                {
+                    "type": "latex",
+                    "value": "l"
+                },
+                {
+                    "type": "text",
+                    "value": " takes half-integer or integer values "
+                },
+                {
+                    "type": "latex",
+                    "value": "0, \\tfrac{1}{2}, 1, \\tfrac{3}{2}, 2, \\dots"
+                },
+                {
+                    "type": "text",
+                    "value": ", while "
+                },
+                {
+                    "type": "latex",
+                    "value": "m_l"
+                },
+                {
+                    "type": "text",
+                    "value": " takes the values "
+                },
+                {
+                    "type": "latex",
+                    "value": "-l, -(l - 1), \\dots, l - 1, l"
+                },
+                {
+                    "type": "text",
+                    "value": " for a given value of "
+                },
+                {
+                    "type": "latex",
+                    "value": "l"
+                },
+                {
+                    "type": "text",
+                    "value": ". Letting "
+                },
+                {
+                    "type": "latex",
+                    "value": "L_x, L_y, L_z"
+                },
+                {
+                    "type": "text",
+                    "value": " denote the three components of "
+                },
+                {
+                    "type": "latex",
+                    "value": "\\mathbf{L}"
+                },
+                {
+                    "type": "text",
+                    "value": ", and "
+                },
+                {
+                    "type": "latex",
+                    "value": "||\\mathbf{L}||^2"
+                },
+                {
+                    "type": "text",
+                    "value": " being the squared absolute value of the angular momentum vector, one has for a state "
+                },
+                {
+                    "type": "latex",
+                    "value": "|l, m_l\\rangle"
+                },
+                {
+                    "type": "text",
+                    "value": ", corresponding to some values of "
+                },
+                {
+                    "type": "latex",
+                    "value": "l"
+                },
+                {
+                    "type": "text",
+                    "value": " and "
+                },
+                {
+                    "type": "latex",
+                    "value": "m_l"
+                },
+                {
+                    "type": "text",
+                    "value": ", the eigenvalue equations"
+                }
+			]
+		},
+        {
+            "type": "latex",
+            "value": "||\\mathbf{L}||^2 |l, m_l\\rangle = \\hbar^2 l (l + 1) |l, m_l\\rangle, \\quad L_z |l, m_l\\rangle = \\hbar m_l |l, m_l\\rangle"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "For orbital angular momentum, which is the analogue of "
+                },
+                {
+                    "type": "latex",
+                    "value": "\\mathbf{L}"
+                },
+                {
+                    "type": "text",
+                    "value": " defined above, the quantum number "
+                },
+                {
+                    "type": "latex",
+                    "value": "l"
+                },
+                {
+                    "type": "text",
+                    "value": " takes specifically integer values "
+                },
+                {
+                    "type": "latex",
+                    "value": "0, 1, 2, \\dots"
+                },
+                {
+                    "type": "text",
+                    "value": "."
+                }
+            ]
+        }
+	]
+}

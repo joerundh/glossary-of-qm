@@ -1,0 +1,15 @@
+{
+    "title": "Schrödinger picture",
+    "ref": "schrodinger-picture",
+    "contents": [
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "The Schrödinger picture is a way of treating the mathematical objects used to describe a quantum system. In the Schrödinger picture, the operators (representing physical quantites, such as position, momentum, et.al.) are considered to be stationary, while the states (vectors) describing the states of the system are generally considered to be changing with time. Mathematically, it is equivalent to the Heisenberg picture, which works the other way around, and the two differ only in the form of their differential equations. Their equivalence can be derived using the transformation theory of Paul Dirac."
+                }
+            ]
+        }
+    ]
+}

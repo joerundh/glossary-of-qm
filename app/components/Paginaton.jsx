@@ -8,9 +8,11 @@ export default function Pagination({ page, perPage, count, children }) {
 
     const pages = count ? Math.ceil(count/perPage) : 0;
 
+    console.log(children)
+
     return (
         <>
-            <div className={"w-full p-[10px] flex flex-row justify-end [border-bottom:_1px_solid_white]"}>
+            <div className={"w-full flex flex-row justify-end [border-bottom:_1px_solid_white] p-[5px]"}>
                 {
                     count ?
                         <span>Showing results {page*perPage + 1} - {page === pages - 1 ? count : (page + 1)*perPage} out of {count}</span>
