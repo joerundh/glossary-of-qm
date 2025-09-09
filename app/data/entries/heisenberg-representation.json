@@ -1,0 +1,166 @@
+{
+    "title": "Heisenberg representation",
+    "ref": "heisenberg-representation",
+    "contents": [
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "The Heisenberg representation is used when one assumes a basis of states in which the Hamiltonian operator "
+                },
+                {
+                    "type": "latex",
+                    "value": "H"
+                },
+                {
+                    "type": "text",
+                    "value": " (representing the energy of the system) is diagonal. Denoting the eigenvalues by "
+                },
+                {
+                    "type": "latex",
+                    "value": "H'"
+                },
+                {
+                    "type": "text",
+                    "value": ", and allowing for degenerate energy levels by assuming a set "
+                },
+                {
+                    "type": "latex",
+                    "value": "\\alpha"
+                },
+                {
+                    "type": "text",
+                    "value": " of commuting observables with eigenvalues "
+                },
+                {
+                    "type": "latex",
+                    "value": "\\alpha'"
+                },
+                {
+                    "type": "text",
+                    "value": " to distinguish different eigenstates "
+                },
+                {
+                    "type": "latex",
+                    "value": "|H'\\alpha'\\rangle"
+                },
+                {
+                    "type": "text",
+                    "value": " of the Hamiltonian, one may expand the Hamiltonian by the spectral theorem:"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "H = \\sum\\limits_{H' \\alpha'} H' |H'\\alpha'\\rangle\\langle H'\\alpha'| = \\sum\\limits_{H'} H' \\Pi_{H'}"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "where "
+                },
+                {
+                    "type": "latex",
+                    "value": "|H'\\alpha'\\rangle\\langle H'\\alpha'|"
+                },
+                {
+                    "type": "text",
+                    "value": " are projection operators onto the corresponding eigenvectors "
+                },
+                {
+                    "type": "latex",
+                    "value": "|H'\\alpha'\\rangle"
+                },
+                {
+                    "type": "text",
+                    "value": ", and"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "\\Pi_{H'} = \\sum\\limits_{\\alpha'} |H'\\alpha'\\rangle\\langle H'\\alpha'|"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "are projection operators onto the eigen-subspace spanned by all the eigenvectors for a given eigenvalue "
+                },
+                {
+                    "type": "latex",
+                    "value": "H'"
+                },
+                {
+                    "type": "text",
+                    "value": ". Assuming this, the solution to the "
+                },
+                {
+                    "type": "ref",
+                    "value": "heisenberg-equation-of-motion",
+                    "label": "Heisenberg equation of motion"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "A(t) = e^{iHt/\\hbar} A(0) e^{-iHt/\\hbar}"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "where "
+                },
+                {
+                    "type": "latex",
+                    "value": "A(0)"
+                },
+                {
+                    "type": "text",
+                    "value": " is the operator at an initial time, set to zero for brevity, and which, with the unitary operators expressible in the eigenbasis of the Hamiltonian as"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "e^{\\mp iHt/\\hbar} = \\sum\\limits_{H' \\alpha'} e^{\\mp iH't/\\hbar} |H'\\alpha'\\rangle\\langleH'\\alpha'|"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "becomes"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "A(t) = \\sum\\limits_{H' \\alpha'} \\sum\\limits_{H'' \\alpha''} \\langle H'\\alpha'|A(0)|H''\\alpha''\\rangle e^{-i(H' - H'')\\hbar} |H'\\alpha'\\rangle\\langle H''\\alpha''|"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "Employing quantum conditions and thereby derived selection rules opens up further to solve for the energy eigenvalues. Without being specified as such, it was this representation of dynamical quantities which as postulated when Werner Heisenberg wrote the first paper on what was later dubbed "
+                },
+                {
+                    "type": "ref",
+                    "value": "matrix-mechanics",
+                    "label": "matrix mechanics"
+                },
+                {
+                    "type": "text",
+                    "value": ". In that paper, he then used this to reformulate quantum conditions from the \"old\" quantum theory, and then to arrive at general, corrected quantum conditions, formulated in terms of matrices."
+                }
+            ]
+        }
+    ]
+}

@@ -7,8 +7,7 @@ export default function PageLayout({ children }) {
                 <nav>
                     <Link href={"/"} className={"cursor-pointer hover:underline"}>Home</Link>
                     <Link href={"/about"} className={"cursor-pointer hover:underline"}>About</Link>
-                    <Link href={"/courses"} className={"cursor-pointer hover:underline"}>Courses</Link>
-                    <Link href={"/facts"} className={"cursor-pointer hover:underline"}>Facts</Link>
+                    <Link href={"/all"} className={"cursor-pointer hover:underline"}>All entries</Link>
                 </nav>
             </header>
             <main className={"w-full flex flex-col gap-[10px] p-[10px] items-stretch"}>

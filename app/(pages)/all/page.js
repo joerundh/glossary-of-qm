@@ -13,7 +13,7 @@ export default async function Page({ searchParams }) {
 
     const listPages = Math.ceil(count/perPage);
 
-    const entries = index.entries.slice(listIndex*perPage, (listIndex + 1)*perPage);
+    const entries = index.entries.sort((objA, objB) => objA.title.localeCompare(objB.title)).slice(listIndex*perPage, (listIndex + 1)*perPage);
 
     return (
         <>

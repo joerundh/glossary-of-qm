@@ -24,6 +24,26 @@ const index = {
             title: "Wave mechanics",
             ref: "wave-mechanics",
             filename: "wave-mechanics.json"
+        },
+        {
+            title: "Hamiltonian",
+            ref: "hamiltonian",
+            filename: "hamiltonian.json"
+        },
+        {
+            title: "Canonical quantization",
+            ref: "canonical-quantization",
+            filename: "canonical-quantization.json"
+        },
+        {
+            title: "Heisenberg representation",
+            ref: "heisenberg-representation",
+            filename: "heisenberg-representation.json"
+        },
+        {
+            title: "Schrödinger representation",
+            ref: "schrodinger-representation",
+            filename: "schrodinger-representation.json"
         }
     ]
 }

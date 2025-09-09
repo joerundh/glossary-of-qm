@@ -7,7 +7,189 @@
             "parts": [
                 {
                     "type": "text",
-                    "value": ""
+                    "value": "In classical mechanics, specifically Hamiltonian mechanics, the Hamiltonian function is a function of the canonical coordinates which generally represents the energy of a system. For example, if "
+                },
+                {
+                    "type": "latex",
+                    "value": "q"
+                },
+                {
+                    "type": "text",
+                    "value": " and "
+                },
+                {
+                    "type": "text",
+                    "value": "p"
+                },
+                {
+                    "type": "text",
+                    "value": " are two mutually conjugate variables, representing, say, the position and the momentum of a moving body, respectively, then their equations of motion are expressible in general as"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "\\dot{q} = \\frac{\\partial H}{\\partial p}, \\quad \\dot{p} = -\\frac{\\partial H}{\\partial q}"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "In quantum mechanics, the Hamiltonian operator, also denoted by "
+                },
+                {
+                    "type": "latex",
+                    "value": "H"
+                },
+                {
+                    "type": "text",
+                    "value": " or "
+                },
+                {
+                    "type": "latex",
+                    "value": "\\hat{H}"
+                },
+                {
+                    "type": "text",
+                    "value": ", is the generator of time-evolution, in that if a system at a time "
+                },
+                {
+                    "type": "latex",
+                    "value": "t"
+                },
+                {
+                    "type": "text",
+                    "value": " is in a state "
+                },
+                {
+                    "type": "latex",
+                    "value": "|\\psi(t)\\rangle"
+                },
+                {
+                    "type": "text",
+                    "value": "the state at a time "
+                },
+                {
+                    "type": "latex",
+                    "value": "t + \\delta t"
+                },
+                {
+                    "type": "text",
+                    "value": "is given by the action of a unitary operator acting on the state at the time "
+                },
+                {
+                    "type": "latex",
+                    "value": "t"
+                },
+                {
+                    "type": "text",
+                    "value": ":"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "|\\psi(t + \\delta t)\\rangle = e^{-iH\\delta t/\\hbar} |\\psi(t)\\rangle"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "latex",
+                    "value": "H"
+                },
+                {
+                    "type": "text",
+                    "value": " consequently appears in both the time-dependent and the time-independent Schrödinger equations. In the time-dependent equation, one has"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "i\\hbar \\frac{\\partial}{\\partial} |\\psi(t)\\rangle = H |\\psi(t)\\rangle"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "i.e. the change of a state "
+                },
+                {
+                    "type": "latex",
+                    "value": "|\\psi(t)\\rangle"
+                },
+                {
+                    "type": "text",
+                    "value": " in time, at a time "
+                },
+                {
+                    "type": "latex",
+                    "value": "t"
+                },
+                {
+                    "type": "text",
+                    "value": ", is proportional to the resultant state of the Hamiltonian acting on it. In the time-independent equation,"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "H |H' \\alpha'\\rangle = H' |H'\\alpha'\\rangle"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "i.e. one wishes to solve for the eigenvalues "
+                },
+                {
+                    "type": "latex",
+                    "value": "H'"
+                },
+                {
+                    "type": "text",
+                    "value": " of the Hamiltonian operator, which are the allowed values that the energy of the system may take. When solving the equation, one generally takes a "
+                },
+                {
+                    "type": "ref",
+                    "value": "schrodinger-representation",
+                    "label": "Schrödinger representation"
+                },
+                {
+                    "type": "text",
+                    "value": " and gets"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "\\langle x | H | H'\\alpha'\\rangle = H' \\langle x | H'\\alpha'\\rangle"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "where "
+                },
+                {
+                    "type": "latex",
+                    "value": "\\langle x | H'\\alpha'\\rangle = \\psi_{H'\\alpha'}(x)"
+                },
+                {
+                    "type": "text",
+                    "value": " is an eigenfunction belonging to the eigenvalue "
+                },
+                {
+                    "type": "latex",
+                    "value": "H'"
+                },
+                {
+                    "type": "text",
+                    "value": ", and the left-hand side will generally invovle a second-order derivative with respect to the position."
                 }
             ]
         }

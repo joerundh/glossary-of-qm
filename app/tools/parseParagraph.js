@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function parseParagraph(obj) {
     if (obj.type === "paragraph") {
         return (
-            <div className={"inline-block flex flex-flow flex-row items-center"}>
+            <div className={"w-full inline-block flex flex-flow flex-row items-center"}>
                 {
                     obj.parts.map((part, index) => {
                         if (part.type === "text") {

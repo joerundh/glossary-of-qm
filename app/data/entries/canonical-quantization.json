@@ -1,0 +1,74 @@
+{
+    "title": "Canonical quantization",
+    "ref": "canonical-quantization",
+    "contents": [
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "Canonical quantization is a procedure to take a system which has a classical description, and then impose quantization rules so as to arrive at a quantum-mechanical description (i.e. \"quantizing\" it). At a basic level, the canonical quantization start out by introducing commutation relations between the relevant operators, such as for the position and the momentum:"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "[q_r, p_s] = i\\hbar \\delta_{r, s}"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "These in particular are referred to as "
+                },
+                {
+                    "type": "bold",
+                    "value": "the canonical commutation relations"
+                },
+                {
+                    "type": "text",
+                    "value": ", and were found by Max Born when going through Werner Heisenberg's original paper."
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "Something of a general scheme was developed by Paul Dirac, who defined for two general operators "
+                },
+                {
+                    "type": "latex",
+                    "value": "A, B"
+                },
+                {
+                    "type": "text",
+                    "value": " the commutation relation"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "[A, B] = AB - BA = i\\hbar \\{A, B\\}_{P.B.}"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "where "
+                },
+                {
+                    "type": "latex",
+                    "value": "\\{A, B\\}_{P.B.}"
+                },
+                {
+                    "type": "text",
+                    "value": " denotes the Poisson bracket between the two operators, which can then be computed just as in classical mechanics, and then taken for an operaor in the quantum context. This method works for relatively simple quantum systems, but is not a completely general method of quantization."
+                }
+            ]
+        }
+    ]
+}

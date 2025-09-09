@@ -1,0 +1,96 @@
+{
+    "title": "Schrödinger representation",
+    "ref": "schrodinger-representation",
+    "contents": [
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "When employing a Schrödinger representation in describing and solving for a quantum system, it is assumed that the quantities in question (the energy eigenfunctions) are functions of the position of the particle. One thus employs a basis in which the position operator is diagonal."
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": " As such, when putting down the Schrödinger equation for the system in question, the state vectors become functions of the position, and the Hamiltonian becomes a differential operator with respect to the position. Mathematically, this is written as"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "i\\hbar \\frac{d}{dt} \\langle\\mathbf{x}|\\psi(t)\\rangle = \\langle\\mathbf{x}|H|\\psi(t)\\rangle"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "where "
+                },
+                {
+                    "type": "latex",
+                    "value": "\\langle\\mathbf{x}|"
+                },
+                {
+                    "type": "text",
+                    "value": "is the (bra) basis of the representation. Denoting "
+                },
+                {
+                    "type": "latex",
+                    "value": "\\langle\\mathbf{x}|\\psi(t)\\rangle = \\psi(t, \\mathbf{x})"
+                },
+                {
+                    "type": "text",
+                    "value": " as function of time and position, and letting "
+                },
+                {
+                    "type": "latex",
+                    "value": "H = \\tfrac{1}{2m} ||\\mathbf{p}||^2 + V(\\mathbf{x})"
+                },
+                {
+                    "type": "text",
+                    "value": ", "
+                },
+                {
+                    "type": "latex",
+                    "value": "\\mathbf{p}"
+                },
+                {
+                    "type": "text",
+                    "value": " being the momentum of the particle, one has "
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "\\langle\\mathbf{x}|\\mathbf{p} = -i\\hbar\\nabla\\langle\\mathbf{x}|, \\quad \\langle\\mathbf{x}|\\:||\\mathbf{p}||^2 = -\\hbar^2\\nabla^2\\langle\\mathbf{x}|"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "and thus the equation becomes"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "i\\hbar \\frac{\\partial\\psi(t, \\mathbf{x})}{\\partial t} = -\\frac{\\hbar^2}{2m} \\nabla^2 \\psi(t, \\mathbf{x}) + V(\\mathbf{x}) \\psi(t, \\mathbf{x})"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "which is the original form in which the Schrödinger equation was put down."
+                }
+            ]
+        }
+    ]
+
+}
