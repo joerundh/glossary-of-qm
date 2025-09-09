@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import parseParagraph from "@/app/tools/parseParagraph";
 import { Fragment } from "react";
+import Link from 'next/link';
 
 export default async function Page({ params }) {
     const { ref } = await params;
@@ -22,6 +23,8 @@ export default async function Page({ params }) {
     
     const entry = JSON.parse(file);
 
+    const categories = index.categories.filter(obj => indexEntry.categories.includes(obj.ref));
+
     // Parse content of the entry
     return (
         <>
@@ -34,6 +37,21 @@ export default async function Page({ params }) {
                         }
                     </Fragment>
                 ))
+            }
+            <h4 className={"w-full font-bold"}>Categories:</h4>
+            {
+                categories.length ?
+                    <ul className={"w-full p-0 m-0"}>
+                        {
+                            categories.map((obj, index) => (
+                                <li className={"w-full"} key={index}>
+                                    <Link href={`/categories/${obj.ref}`} className={"hover:underline"}>{obj.title}</Link>
+                                </li>
+                            ))
+                        }
+                    </ul>
+                :
+                    <p className={"w-full"}>This entry is not put into any categories.</p>
             }
         </>
     )

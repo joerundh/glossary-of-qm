@@ -1,0 +1,32 @@
+{
+    "title": "Schrödinger equation",
+    "ref": "schrodinger-equation",
+    "contents": [
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "In "
+                },
+                {
+                    "type": "ref",
+                    "value": "wave-mechanics",
+                    "label": "wave mechanics"
+                },
+                {
+                    "type": "text",
+                    "value": ", the "
+                },
+                {
+                    "type": "bold",
+                    "value": "Schrödinger equation"
+                },
+                {
+                    "type": "text",
+                    "value": " is the principal equation of motion, which describes how the state of a quantum system changes over time."
+                }
+            ]
+        }
+    ]
+}

@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from "next/link"
 
 export default function parseParagraph(obj) {
@@ -10,6 +9,10 @@ export default function parseParagraph(obj) {
                         if (part.type === "text") {
                             return (
                                 <span key={index}>{part.value}</span>
+                            )
+                        } else if (part.type === "bold") {
+                            return (
+                                <span className={"font-bold"} key={index}>{part.value}</span>
                             )
                         } else if (part.type === "italic") {
                             return (

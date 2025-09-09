@@ -1,0 +1,91 @@
+{
+    "title": "Position",
+    "ref": "position",
+    "contents": [
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "In physics, the "
+                },
+                {
+                    "type": "bold",
+                    "value": "position"
+                },
+                {
+                    "type": "text",
+                    "value": " of, say, a body or particle, refers to a quantification of its "
+                },
+                {
+                    "type": "italic",
+                    "value": "location in space"
+                },
+                {
+                    "type": "text",
+                    "value": ", usually with respect some chosen origin (which, loosely speaking, has position zero)."
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "Depending on the system, one includes one or several number of "
+                },
+                {
+                    "type": "italic",
+                    "value": "components"
+                },
+                {
+                    "type": "text",
+                    "value": " of the position, referred to as "
+                },
+                {
+                    "type": "bold",
+                    "value": "coordinates"
+                },
+                {
+                    "type": "text",
+                    "value": ". In a system wehere all three spatial components are needed for a description, they are usually denoted "
+                },
+                {
+                    "type": "latex",
+                    "value": "x, y, z"
+                },
+                {
+                    "type": "text",
+                    "value": "."
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "In quantum mechanics, the position coordinates are considered as operators acting on state vectors of a system. It is of immense importance in "
+                },
+                {
+                    "type": "ref",
+                    "value": "wave-mechanics",
+                    "label": "wave mechanics"
+                },
+                {
+                    "type": "text",
+                    "value": ", which generally describes the states of a system in terms of wave functions, which are then functions of the position (see the page on "
+                },
+                {
+                    "type": "ref",
+                    "value": "schrodinger-representation",
+                    "label": "Schrödinger representation"
+                },
+                {
+                    "type": "text",
+                    "value": ")."
+                }
+            ]
+        }
+    ]
+}

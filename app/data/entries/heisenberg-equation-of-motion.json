@@ -1,0 +1,252 @@
+{
+    "title": "Heisenberg equation of motion",
+    "ref": "heisenberg-equation-of-motion",
+    "contents": [
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "In "
+                },
+                {
+                    "type": "ref",
+                    "value": "matrix-mechanics",
+                    "label": "matrix mechanics"
+                },
+                {
+                    "type": "text",
+                    "value": ", the "
+                },
+                {
+                    "type": "bold",
+                    "value": "Heisenberg equation of motion"
+                },
+                {
+                    "type": "text",
+                    "value": " is a differential equation for matrices, which describes how operators (matrices) change with time in the "
+                },
+                {
+                    "type": "ref",
+                    "value": "heisenberg-picture",
+                    "label": "Heisenberg picture"
+                },
+                {
+                    "type": "text",
+                    "value": ". For a time-dependent operator "
+                },
+                {
+                    "type": "latex",
+                    "value": "A(t)"
+                },
+                {
+                    "type": "text",
+                    "value": ", it is expressed as follows:"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "i\\hbar\\frac{d}{dt} A(t) = [A(t), H] = A(t) H - H A(t)"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "where the right-hand side is simply the commutator of "
+                },
+                {
+                    "type": "latex",
+                    "value": "A(t)"
+                },
+                {
+                    "type": "text",
+                    "value": " and the Hamiltonian "
+                },
+                {
+                    "type": "latex",
+                    "value": "H"
+                },
+                {
+                    "type": "text",
+                    "value": " of the system in question."
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "Using the transformation theory of Paul Dirac, when change in time of operators and states are taken to be described by a unitary transformation "
+                },
+                {
+                    "type": "latex",
+                    "value": "U(t) = e^{-iHt/\\hbar}"
+                }, 
+                {
+                    "type": "text",
+                    "value": ", and "
+                },
+                {
+                    "type": "latex",
+                    "value": "A(0)"
+                },
+                {
+                    "type": "text",
+                    "value": " is the operator at a time "
+                },
+                {
+                    "type": "latex",
+                    "value": "t = 0"
+                },
+                {
+                    "type": "text",
+                    "value": ", then the same operator at a later time "
+                },
+                {
+                    "type": "latex",
+                    "value": "t > 0"
+                },
+                {
+                    "type": "text",
+                    "value": " is then"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "A(t) = U(t)^* A(0) U(t) = \\sum\\limits_{H'\\alpha'} \\sum\\limits_{H''\\alpha''} e^{i(H' - H'')t/\\hbar} \\langle H'\\alpha'|A(0)|H''\\alpha''\\rangle |H'\\alpha'\\rangle\\langle H''\\alpha''|"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "which is just to say that the matrix elements "
+                },
+                {
+                    "type": "latex",
+                    "value": "\\langle H'\\alpha'|A(0)|H''\\alpha''\\rangle"
+                },
+                {
+                    "type": "text",
+                    "value": " of "
+                },
+                {
+                    "type": "latex",
+                    "value": "A(0)"
+                },
+                {
+                    "type": "text",
+                    "value": " in the eigenbasis "
+                },
+                {
+                    "type": "latex",
+                    "value": "|H'\\alpha'\\rangle"
+                },
+                {
+                    "type": "text",
+                    "value": " of the Hamiltonian get shifted by a time-dependent "
+                },
+                {
+                    "type": "italic",
+                    "value": "phase factor"
+                },
+                {
+                    "type": "text",
+                    "value": " "
+                },
+                {
+                    "type": "latex",
+                    "value": "e^{i(H' - H'')t/\\hbar}"
+                },
+                {
+                    "type": "text",
+                    "value": "."
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "Taking the derivative of the operator at the shifted time yields"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "\\frac{d}{dt} A(t) = \\frac{i}{\\hbar} \\sum\\limits_{H'\\alpha'} \\sum\\limits_{H''\\alpha''} (H' - H'') e^{i(H' - H'')t/\\hbar} \\langle H'\\alpha'|A(0)|H''\\alpha''\\rangle"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "while the commutator, when noticing that"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "\\big[ |H'\\alpha'\\rangle\\langle H''\\alpha''|, H \\big] = (H'' - H') |H'\\alpha'\\rangle\\langle H''\\alpha''|"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "because both factors in the outer product are eigenvectors of the Hamiltonian, the commutator of "
+                },
+                {
+                    "type": "latex",
+                    "value": "A(t)"
+                },
+                {
+                    "type": "text",
+                    "value": " and "
+                },
+                {
+                    "type": "latex",
+                    "value": "H"
+                },
+                {
+                    "type": "text",
+                    "value": " becomes"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "[A(t), H] = \\sum\\limits_{H'\\alpha'} \\sum\\limits_{H''\\alpha''} (H'' - H') e^{i(H' - H'')t/\\hbar} \\langle H'\\alpha'|A(0)|H''\\alpha''\\rangle |H'\\alpha'\\rangle\\langle H''\\alpha''|"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "Dividing this by "
+                },
+                {
+                    "type": "latex",
+                    "value": "i\\hbar"
+                },
+                {
+                    "type": "text",
+                    "value": " then clearly yields the same expression as "
+                },
+                {
+                    "type": "latex",
+                    "value": "\\tfrac{d}{dt} A(t)"
+                },
+                {
+                    "type": "text",
+                    "value": ", thus expressing the above equation of motion."
+                }
+            ]
+        }
+    ]
+}

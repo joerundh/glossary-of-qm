@@ -5,9 +5,10 @@ export default function PageLayout({ children }) {
         <>
             <header>
                 <nav>
-                    <Link href={"/"} className={"cursor-pointer hover:underline"}>Home</Link>
-                    <Link href={"/about"} className={"cursor-pointer hover:underline"}>About</Link>
-                    <Link href={"/all"} className={"cursor-pointer hover:underline"}>All entries</Link>
+                    <Link href={"/"} className={"cursor-pointer hover:underline"} title={"Home"}>Home</Link>
+                    <Link href={"/categories"} className={"cursor-pointer hover:underline"} title={"Categories"}>Categories</Link>
+                    <Link href={"/all"} className={"cursor-pointer hover:underline"} title={"All entries"}>All entries</Link>
+                    <Link href={"/about"} className={"cursor-pointer hover:underline"} title={"About"}>About</Link>
                 </nav>
             </header>
             <main className={"w-full flex flex-col gap-[10px] p-[10px] items-stretch"}>

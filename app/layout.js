@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "",
-  description: "",
+  title: "Glossary of quantum mechanics",
+  description: "The title says it all",
 };
 
 export default function RootLayout({ children }) {

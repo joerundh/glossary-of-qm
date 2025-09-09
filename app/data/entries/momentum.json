@@ -1,0 +1,198 @@
+{
+    "title": "Momentum",
+    "ref": "momentum",
+    "contents": [
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "The "
+                },
+                {
+                    "type": "bold",
+                    "value": "momentum"
+                },
+                {
+                    "type": "text",
+                    "value": " of a body or particle refers, roughly speaking, to the product of the body's or particle's mass and its velocity, i.e. the time-derivative of its position:"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "\\mathbf{p} = m\\frac{d\\mathbf{x}}{dt}"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "In Lagrangian and Hamiltonian mechanics, one generally refers to a more general, but still related quantity, namely the "
+                },
+                {
+                    "type": "italic",
+                    "value": "conjugate momentum"
+                },
+                {
+                    "type": "text",
+                    "value": ", where each component "
+                },
+                {
+                    "type": "latex",
+                    "value": "p_i"
+                },
+                {
+                    "type": "text",
+                    "value": " corresponding to a component "
+                },
+                {
+                    "type": "latex",
+                    "value": "x_i"
+                },
+                {
+                    "type": "text",
+                    "value": " of the position, is defined as the partial derivative of the Lagrange function "
+                },
+                {
+                    "type": "latex",
+                    "value": "L(x, \\dot{x})"
+                },
+                {
+                    "type": "text",
+                    "value": " of the system with respect to "
+                },
+                {
+                    "type": "latex",
+                    "value": "\\dot{x}"
+                },
+                {
+                    "type": "text",
+                    "value": ":"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "p_i = \\frac{\\partial L}{\\partial\\dot{x}}"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "which is not always equal to the initial definition, but which in any case then follows one of the Hamilton equations of motion:"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "\\dot{p}_i = -\\frac{\\partial H}{\\partial x_i}"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "Somewhat similarly in quantum mechanics, the momentum is usually and initally taken alongside the position of a particle as the quantities in terms of which a system is described. It is then defined as an operator, with its components "
+                },
+                {
+                    "type": "latex",
+                    "value": "p_x, p_y, p_z"
+                },
+                {
+                    "type": "text",
+                    "value": " following the canonical commutation relations:"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "q_i p_j - p_j q_i = i\\hbar \\delta_{i, j}"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "where "
+                },
+                {
+                    "type": "latex",
+                    "value": "\\delta_{i,j}"
+                },
+                {
+                    "type": "text",
+                    "value": " is "
+                },
+                {
+                    "type": "latex",
+                    "value": "1"
+                },
+                {
+                    "type": "text",
+                    "value": " if "
+                },
+                {
+                    "type": "latex",
+                    "value": "i = j"
+                },
+                {
+                    "type": "text",
+                    "value": ", and zero otherwise. In a "
+                },
+                {
+                    "type": "ref",
+                    "value": "schrodinger-representation",
+                    "label": "Schrödinger representation"
+                },
+                {
+                    "type": "text",
+                    "value": ", the components "
+                },
+                {
+                    "type": "latex",
+                    "value": "p_i"
+                },
+                {
+                    "type": "text",
+                    "value": " generally becomes partial derivative operators with respect to the corresponding spatial coordinate, multiplied by a complex factor:"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "p_i = -i\\hbar \\frac{\\partial}{\\partial x_i}"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "As such, the momentum "
+                },
+                {
+                    "type": "italic",
+                    "value": "vector"
+                },
+                {
+                    "type": "text",
+                    "value": " operator becomes in the same context, a gradient operator:"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "\\mathbf{p} = -i\\hbar\\nabla = -i\\hbar\\bigg( \\hat{\\mathbf{e}}_x \\frac{\\partial}{\\partial x} + \\hat{\\mathbf{e}}_y \\frac{\\partial}{\\partial y} + \\hat{\\mathbf{e}}_y \\frac{\\partial}{\\partial z} \\bigg)"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "whence, incidentally, the Laplace operator in the Schrödinger equation comes, in the term that represents the particle's kinetic energy."
+                }
+            ]
+        }
+    ]
+}
