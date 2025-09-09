@@ -39,7 +39,7 @@ export default async function Page({ params, searchParams }) {
 
     return (
         <>
-            <h3 className={"w-full text-lg font-bold"}>Entries in the category "{category.title}"</h3>
+            <h3 className={"w-full text-lg font-bold"}>Entries in the category <i>{category.title}</i></h3>
             <p className={"w-full"}>
                 <Link href={"/categories"} className={"underline"}>Go back to categories</Link>
             </p>
@@ -51,7 +51,7 @@ export default async function Page({ params, searchParams }) {
                         <ul className={"w-full m-0 p-0"}>
                             {
                                 entries.slice(listPage*perPage, (listPage + 1)*perPage).map((obj, index) => (
-                                    <li className={"w-full m-[5px] p-0"} key={index}><Link href={`/entry/${obj.ref}`} className={"font-bold"}>{obj.title}</Link></li>
+                                    <li className={"w-[95%] m-[5px] ml-[5%] p-0 list-disc"} key={index}><Link href={`/entry/${obj.ref}`} className={"font-bold"}>{obj.title}</Link></li>
                                 ))
                             }
                         </ul>

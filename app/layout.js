@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Quicksand } from "next/font/google";
 import "./globals.css";
 import PageLayout from "./components/PageLayout";
 
@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Glossary of quantum mechanics",
-  description: "The title says it all",
+  description: "Somewhat in-detail descriptions and explanations of basic, but central concepts in quantum mechanics. Some math-heavy parts may occur.",
 };
 
 export default function RootLayout({ children }) {

@@ -11,7 +11,7 @@ export default function Page() {
                     <ul className={"w-full m-0 p-0"}>
                         {
                             index.categories.map((obj, index) => (
-                                <li className={"w-full m-[5px] p-0"} key={index}><Link href={`/categories/${obj.ref}`} className={"font-bold hover:underline"}>{obj.title}</Link></li>
+                                <li className={"w-[95%] m-[5px] ml-[5%] p-0 list-disc"} key={index}><Link href={`/categories/${obj.ref}`} className={"font-bold hover:underline"}>{obj.title}</Link></li>
                             ))
                         }
                     </ul>

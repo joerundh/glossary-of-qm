@@ -23,11 +23,11 @@ export default async function Page({ searchParams }) {
                     <p className={"w-full"}>Page not found.</p>
                 :
                     <Pagination page={listIndex} perPage={perPage} count={count}>
-                        <ul className={"w-full p-[5px] flex flex-col gap-[5px] justify-start items-start"}>
+                        <ul className={"w-full p-0 m-0"}>
                         {
                             entries.length ?
                                 entries.map((entry, index) => (       
-                                    <li key={index}>
+                                    <li className={"w-[95%] m-[5px] ml-[5%] p-0 list-disc"} key={index}>
                                         <Link href={`/entry/${entry.ref}`} className={"font-bold hover:underline"}>{entry.title}</Link>
                                     </li>
                                 ))

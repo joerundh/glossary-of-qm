@@ -14,8 +14,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #202020;
+    --background: #202028;
     --foreground: #ededed;
+    --outline-width: 2px;
+    --outline:
+      calc(-1 * var(--outline-width)) calc(-1 * var(--outline-width)) 0 black,
+      var(--outline-width) calc(-1 * var(--outline-width)) 0 black,
+      calc(-1 * var(--outline-width)) var(--outline-width) 0 black,
+      var(--outline-width) var(--outline-width) black;
   }
 }
 
@@ -24,7 +30,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   width: 800px;
-  margin: 0 auto;
+  margin: 10px auto;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,7 +38,12 @@ body {
 
 header {
   width: 100%;
-  height: 120px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("/background.jpg");
+  background-position: top center;
 }
 
 nav {

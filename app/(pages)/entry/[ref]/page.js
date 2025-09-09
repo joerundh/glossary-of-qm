@@ -44,7 +44,7 @@ export default async function Page({ params }) {
                     <ul className={"w-full p-0 m-0"}>
                         {
                             categories.map((obj, index) => (
-                                <li className={"w-full"} key={index}>
+                                <li className={"w-[95%] m-[5px] ml-[5%] p-0 list-disc"} key={index}>
                                     <Link href={`/categories/${obj.ref}`} className={"hover:underline"}>{obj.title}</Link>
                                 </li>
                             ))
