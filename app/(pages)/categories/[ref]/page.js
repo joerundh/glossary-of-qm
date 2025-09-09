@@ -15,7 +15,7 @@ export default async function Page({ params, searchParams }) {
         return (
             <>
                 <h3 className={"w-full text-lg font-bold"}>Not found</h3>
-                <p className={"w-full"}>No category was found with the reference "{ref}".</p>
+                <p className={"w-full"}>No category was found with the reference &quot;{ref}&quot;.</p>
                 <p className={"w-full"}>
                     <Link href={"/categories"} className={"font-bold hover:underline"}>Go to category list</Link>
                 </p>
@@ -32,7 +32,7 @@ export default async function Page({ params, searchParams }) {
         return (
             <>
                 <h3 className={"w-full text-lg font-bold"}>No entries found</h3>
-                <p className={"w-full"}>There are no entries in the category "{}".</p>
+                <p className={"w-full"}>There are no entries in the category &quot;{}&quot;.</p>
             </>
         )
     }
