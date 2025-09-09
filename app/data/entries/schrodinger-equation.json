@@ -24,7 +24,287 @@
                 },
                 {
                     "type": "text",
-                    "value": " is the principal equation of motion, which describes how the state of a quantum system changes over time."
+                    "value": " is the principal equation of motion for quantum states, as it describes how the state of a quantum system changes over time."
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "title": "The time-dependent equation",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "In its general (also referred to as "
+                },
+                {
+                    "type": "italic",
+                    "value": "time-dependent"
+                },
+                {
+                    "type": "text",
+                    "value": ") form, the Schrödinger equation gives the derivative of a time-dependent state "
+                },
+                {
+                    "type": "latex",
+                    "value": "|\\psi(t)\\rangle"
+                },
+                {
+                    "type": "text",
+                    "value": " as follows:"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "i\\hbar \\frac{\\partial}{\\partial t} |\\psi(t)\\rangle = H|\\psi(t)\\rangle"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "Here, "
+                },
+                {
+                    "type": "latex",
+                    "value": "H"
+                },
+                {
+                    "type": "text",
+                    "value": " is the Hamiltonian operator of the system, which in a sense represents the energy of the system, and "
+                },
+                {
+                    "type": "latex",
+                    "value": "|\\psi(t)\\rangle"
+                },
+                {
+                    "type": "text",
+                    "value": " is the state of a system at a time "
+                },
+                {
+                    "type": "latex",
+                    "value": "t"
+                },
+                {
+                    "type": "text",
+                    "value": ". This equation is generally accompanied by an "
+                },
+                {
+                    "type": "italic",
+                    "value": "initial state"
+                },
+                {
+                    "type": "text",
+                    "value": " "
+                },
+                {
+                    "type": "latex",
+                    "value": "|\\psi(0)\\rangle"
+                },
+                {
+                    "type": "text",
+                    "value": " at "
+                },
+                {
+                    "type": "latex",
+                    "value": "t = 0"
+                },
+                {
+                    "type": "text",
+                    "value": "."
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "title": "Schrödinger representation",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "One common way of going about solving the differential equation is to choose a particular "
+                },
+                {
+                    "type": "italic",
+                    "value": "representation"
+                },
+                {
+                    "type": "text",
+                    "value": " of the states. One very useful one is the "
+                },
+                {
+                    "type": "ref",
+                    "value": "schrodinger-representation",
+                    "label": "Schrödinger representation"
+                },
+                {
+                    "type": "text",
+                    "value": ", in which the states are represented by functions of the position "
+                },
+                {
+                    "type": "latex",
+                    "value": "\\mathbf{x}"
+                },
+                {
+                    "type": "text",
+                    "value": " of, say, the particle in question. These representatives are denoted by"
+                },
+                {
+                    "type": "latex",
+                    "value": "\\langle\\mathbf{x}|\\psi(t)\\rangle = \\psi(t, \\mathbf{x})"
+                },
+                {
+                    "type": "text",
+                    "value": " and typically referred to as "
+                },
+                {
+                    "type": "italic",
+                    "value": "wave functions"
+                },
+                {
+                    "type": "text",
+                    "value": ". The Schrödinger equation then generally becomes a second-order partial differential equation (typically involving the Laplace operator), to which there is a whole devoted branch of mathematics. Nevertheless, solving the Schrödinger equation is generally considered a highly non-trivial task, and not that many quantum systems have an exactly solvable Schrödinger equation. For such systems, numerical analysis can give good qualitative results, though this comes with its own issues. The general form of it is, for the record, as follows:"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "i\\hbar \\frac{\\partial \\psi(t, \\mathbf{x}}{\\partial t} = -\\frac{\\hbar^2}{2m} \\nabla^2 \\psi(t, \\mathbf{x}) + V(\\mathbf{x}) \\psi(t, \\mathbf{x})"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "where "
+                },
+                {
+                    "type": "latex",
+                    "value": "V(\\mathbf{x})"
+                },
+                {
+                    "type": "text",
+                    "value": " is the (generally multiplicative) operator representing the potential energy of the particle."
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "title": "The time-independent equation",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "As the energy of a system is an observable (it can be measured, in principle), its operator representative is always symmetric (sometimes referred to as \"hermitian\"). Then from the theory of linear algebra, it has a set of real eigenvalues, and a corresponding set of eigenvectors. These eigenvectors are such that any vector in the relevant vector space can be expressed as a linear sum of them:"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "|\\psi\\rangle = \\sum\\limits_{H'\\alpha'} c_{H'\\alpha'} |H'\\alpha'\\rangle"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "for a given state "
+                },
+                {
+                    "type": "latex",
+                    "value": "|\\psi\\rangle"
+                },
+                {
+                    "type": "text",
+                    "value": ", where the coefficients "
+                },
+                {
+                    "type": "latex",
+                    "value": "c_{H'\\alpha'}"
+                },
+                {
+                    "type": "text",
+                    "value": " can be expressed as an inner product (\"dot product\") "
+                },
+                {
+                    "type": "latex",
+                    "value": "\\langle H'\\alpha'|\\psi\\rangle"
+                },
+                {
+                    "type": "text",
+                    "value": ". This is called a "
+                },
+                {
+                    "type": "italic",
+                    "value": "superposition"
+                },
+                {
+                    "type": "text",
+                    "value": " of states. Applying the Hamiltonian to such an eigenstate yields"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "H|H'\\alpha'\\rangle = H'|H'\\alpha'\\rangle"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "which is then the "
+                },
+                {
+                    "type": "italic",
+                    "value": "time-independent"
+                },
+                {
+                    "type": "text",
+                    "value": " Schrödinger equation. This merely expresses that "
+                },
+                {
+                    "type": "latex",
+                    "value": "|H'\\alpha'\\rangle"
+                },
+                {
+                    "type": "text",
+                    "value": " is an eigenvector of the Hamiltonian belonging to the eigenvalue "
+                },
+                {
+                    "type": "latex",
+                    "value": "H'"
+                },
+                {
+                    "type": "text",
+                    "value": ". Using a Schrödinger representation for this, one gets a differential equation for the corresponding "
+                },
+                {
+                    "type": "italic",
+                    "value": "eigenfunction"
+                },
+                {
+                    "type": "text",
+                    "value": " "
+                },
+                {
+                    "type": "latex",
+                    "value": "\\psi_{H'\\alpha'}(\\mathbf{x})"
+                },
+                {
+                    "type": "text",
+                    "value": " (which are independent of time, as long as the Hamiltonian itself is):"
+                }
+            ]
+        },
+        {
+            "type": "latex",
+            "value": "-\\frac{\\hbar^2}{2m} \\nabla^2 \\psi_{H'\\alpha'}(\\mathbf{x}) + V(\\mathbf{x}) \\psi_{H'\\alpha'}(\\mathbf{x}) = H'\\psi_{H'\\alpha'}(\\mathbf{x})"
+        },
+        {
+            "type": "paragraph",
+            "parts": [
+                {
+                    "type": "text",
+                    "value": "Solving this equation then allows one to write the wave function of any system as a superposition of the eigenstates, and then consequently to solve the time-dependent Schrödinger equation, by which each term in the superposition merely attains a time-dependent phase factor."
                 }
             ]
         }

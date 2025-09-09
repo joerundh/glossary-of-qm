@@ -5,6 +5,11 @@ export default function parseParagraph(obj) {
         return (
             <div className={"w-full inline-block flex flex-flow flex-row items-center"}>
                 {
+                    obj.title ? 
+                        <h4 className={"w-full font-bold"}>{obj.title}</h4>
+                    : <></>
+                }
+                {
                     obj.parts.map((part, index) => {
                         if (part.type === "text") {
                             return (
